@@ -60,22 +60,22 @@ header ul{
     justify-content: center;
 }
 
-/* first section */
+/* FIRST SECTION */
 
 .first-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    padding: 40px 0;
+
     /* debug */
-    height: 500px;
+    /* height: 500px; */
     background-color: rgb(0 0 139);
 }
 .main-head-container{
     width: 50%;
+    margin: auto;
     
     /* debug */
     background-color: rgb(238 130 238);
     border: 2px dashed black;
     height: 400px;
 }
+
