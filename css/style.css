@@ -113,3 +113,52 @@ header ul{
     height: 700px;
     border: 2px dashed black;
 }
+
+/*FOOTER*/
+.black-bg{
+    background-color: rgb(35 39 42);
+}
+
+.footer-bigbox{
+    width: 30%;
+
+    /* debug */
+    background-color: rgb(240 128 128);
+    border: 2px dashed black;
+    height: 500px;
+}
+
+.footer-smallbox{
+    width: calc(70%/4);
+
+    /* debug */
+    background-color: rgb(32 178 170);
+    border: 2px dashed white;
+}
+
+footer > section{
+    margin-bottom: 2px;
+}
+
+.last-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* debug */
+    background-color: rgb(127 255 212);
+    height: 50px;
+}
+
+.no-padding{
+    padding-bottom: 0;
+}
+
+.second-logo, button{
+    padding: 3px;
+
+    /* debug */
+    background-color: rgb(255 182 193);
+    border: 2px dashed black;
+}
