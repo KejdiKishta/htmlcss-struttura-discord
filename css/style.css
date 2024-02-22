@@ -104,3 +104,12 @@ header ul{
     /* debug */
     background-color: rgb(211 211 211);
 }
+
+.biggest-box{
+    width: 100%;
+
+    /* debug */
+    background-color: rgb(34 139 34);
+    height: 700px;
+    border: 2px dashed black;
+}
