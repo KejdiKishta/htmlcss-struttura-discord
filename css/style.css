@@ -11,4 +11,45 @@ img{
 
 a{
 color: inherit;
+text-decoration: none;
+}
+
+/* CONTAINER */
+.container{
+    display: flex;
+    width: 70%;
+}
+
+/* HEADER */
+header{
+    background-color: rgb(173 216 230);
+    display: flex;
+    justify-content: center;
+}
+
+.head{
+    padding: 10px;
+}
+
+.logo, .login{
+    width: 20%;
+    border: 2px dashed black;
+    padding: 5px;
+    background-color: rgb(218 165 32);
+}
+
+header nav{
+    width: 60%;
+    border: 2px dashed black;
+    background-color: rgb(218 165 32);
+}
+
+header li{
+    padding: 5px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
 }
