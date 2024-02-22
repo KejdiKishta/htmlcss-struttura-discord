@@ -18,13 +18,16 @@ text-decoration: none;
 .container{
     display: flex;
     width: 70%;
+    margin: auto;
+}
+
+/* COMMON */
+section{
+    padding: 40px 0;
 }
 
 /* HEADER */
 header{
-    display: flex;
-    justify-content: center;
-
     /* debug */
     background-color: rgb(173 216 230);
 }
@@ -63,8 +66,6 @@ header ul{
 /* FIRST SECTION */
 
 .first-section{
-    padding: 40px 0;
-
     /* debug */
     /* height: 500px; */
     background-color: rgb(0 0 139);
@@ -79,3 +80,27 @@ header ul{
     height: 400px;
 }
 
+/* SECTIONS */
+
+.large-box{
+    width: 60%;
+
+    /* debug */
+    background-color: rgb(30 144 255);
+    height: 400px;
+    border: 2px dashed black;
+}
+
+.small-box{
+    width: 40%;
+
+    /* debug */
+    background-color: rgb(255 192 203);
+    height: 400px;
+    border: 2px dashed black;
+}
+
+.bg-color-section{
+    /* debug */
+    background-color: rgb(211 211 211);
+}
